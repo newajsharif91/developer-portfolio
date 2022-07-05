@@ -8,9 +8,12 @@ h1{
 .orange{
     color: rgb(239, 135, 61);
 }
-section{
+.red{
+    color: rgb(239, 186, 12);
+}
+.flexible-container{
     display: flex;
-    margin: bottom 110px;;
+    margin: bottom 150px;;
 }
 .half-width{
     width: 50%;
@@ -18,7 +21,7 @@ section{
 }
 .half-width img{
 width: 60%;
-padding-right: 5%;
+padding-right: 2%;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +39,25 @@ padding-right: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:20px;
+    box-shadow: 20px 20px 50px grey;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat ;
+}
+#border-left{
+    border-left: 10px solid tomato;
+}
+#border-right{
+    border-left: 10px solid blue;
+}
+footer p{
+    text-align: center;
 }
